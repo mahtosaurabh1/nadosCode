@@ -1,0 +1,360 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-size: 1.2vw;
+}
+.full{
+    background-color: RGB(31, 27, 44);
+}
+.top{
+    display:flex ;
+    justify-content:space-between;
+    background-color: RGB(35, 34, 52);
+    padding-top: 2.5vh;
+    padding-bottom: 1vw;
+    margin: 1vw;
+    box-shadow: 0px 3px 5px black
+}
+#top{
+    display: flex;
+    justify-content: space-around;
+    /* width: 100vw; */
+    margin-right: 4vw;
+
+}
+
+#top button{
+    background: none;
+    outline: none;
+    border: none;
+    padding: 1vw 2vw; /* we can give 2 parameters in padding first one will be left-right second one will be top-bottom */
+    color: white;
+    font-size: smaller;
+    font-weight:550;
+    margin-bottom: 0.3vw;
+    margin: -0.3vw;
+}
+#top button:hover, div select:hover{
+    color: rgb(13, 31, 231);
+    cursor:pointer
+}
+
+.top img{
+    /* margin-bottom: 0.5%; */
+    margin-left: 4vw;
+    padding-bottom: 0.5vh;
+}
+.top:hover{
+    background-color: #9f63f4;    
+}
+select{
+    background: none;
+    outline: none;
+    border: none;
+    /* border: 2px solid red ; */
+    color: white;
+    font-weight:550;
+    margin-bottom: 0.7%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 7vw;
+    margin: -0.3vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    font-size: smaller;
+}
+
+option{
+    background-color: RGB(35, 34, 52);
+    border: none;
+    border-radius: 0vw; 
+    color: white;           
+}
+.goToCommunity{
+    background-color:RGB(38, 105, 255) !important;
+    border-style:groove ;
+    border-radius: 4vh;
+}
+.goToCommunity:hover,.headings button:hover, .bottumMiddle button:hover{
+    box-shadow: -0.0vh 0.8vh rgb(207, 245, 112) !important;
+    color: white !important;
+    cursor: pointer;
+}
+.joinTheBestCodingCommunity{
+    display: flex;
+    height: 80vh ;
+}
+.joinTheBestCodingCommunity .headings h1{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    justify-content:start;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+        }
+.joinTheBestCodingCommunity .headings h2{
+    font-weight: 400;
+    margin-left: 4vw;
+    margin-top: 3vh ;
+    color: white;
+}
+.joinTheBestCodingCommunity .headings button{
+    margin-left: 4.3vw;
+    margin-top: 7vh;
+    /* box-shadow: -0.3vh 0.3vh black; */
+    /* font-size: larger; */
+    padding: 2vh;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    border-radius: 10vh;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+.joinTheBestCodingCommunity>.img{
+    display: flex;
+    margin-left: 4vw;
+}
+.joinTheBestCodingCommunity .ppl4{
+    display: flex;
+    height: 4vw;
+    width: 10vw;
+    margin-left: 4vw;
+    margin-top: 5vh;
+}
+.ppl4Text{
+font-size: 2.5vh !important;
+font-weight: 100 !important;
+margin-left: 14.5vw !important;
+margin-top: -6.5vh !important;
+}
+div.joinTheBestCodingCommunity{
+   margin-bottom: 8vh;
+}
+.mid{
+   background-color: RGB(35, 34, 52);
+   display: flex;
+justify-content: space-around;
+padding-top: 4vh;
+}
+
+.mid h1{
+    font-size: 2.125rem;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.midmid p{
+    font-size: 1.5rem;
+    color: white;
+}
+.midmid{
+    background-color: RGB(35, 34, 52);
+   display: flex;
+justify-content: space-around;
+padding-bottom: 4vh;
+    
+}
+.whyNados{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.whyNados h1{
+    padding-top: 10vh;
+    font-size: 8vh;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.whyNados h2{
+    
+    font-size: 20px;
+    margin-top: 1vh;
+    font-family: 'Montserrat', sans-serif !important;
+    background: -webkit-linear-gradient(#dc90a2,#9f63f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 60;
+    font-stretch: expanded;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottumMiddle{
+    display: flex;
+    flex-direction: column;
+}
+.bottumMiddle h1{
+    margin-bottom: 1vw;
+    font-size: 3.2rem   ;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900 !important;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 35vw;
+    margin-top: 5vw;
+}
+.bottumMiddle h2{
+    margin-bottom: 1vw;
+    margin-top: 2vh;
+    color: white;
+    margin-left: 35vw;
+    font-weight: 400;
+}
+.bottumMiddle img{
+    position:absolute;
+    padding: 0%;
+    width: 65vh;
+    height: 30vw;
+}
+.bottumMiddle button{
+    margin-top: 1vw;
+    padding: 2vh;
+    width: 15vw;
+    border-radius: 10vh;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    border: none;
+    color: white;
+    font-weight: 900;
+    margin-left: 35vw;
+}
+.pplAboutNados{
+    margin-top: 10vw;
+    font-size: 5rem;
+}
+.pplAboutNados h1{
+    font-size: 3rem   ;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder !important;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 18vw;
+}
+.pplAboutNados h2{
+    padding: 2vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    font-size: 12px;
+    /* margin-top: 1vh; */
+    font-family: 'Montserrat', sans-serif !important;
+    background: -webkit-linear-gradient(#dc90a2,#9f63f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:normal;
+    letter-spacing: 1vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    padding: 5vw;
+    background-color: #232234;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.socialMedia>img{
+    height: 15vh;
+    padding-bottom: 1vw;
+}
+.socialMedia div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vw;
+    justify-content: space-around;
+}
+
+.socialMedia div{
+    margin-top: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    box-shadow: 0.5vh 0.5vh orange, -0.5vh -0.5vh orange;
+}
+.socialMedia div:hover{
+    background-color: rgb(1, 1, 1);
+
+}
+.socialMedia div img:hover{
+    padding: 1vw;
+    box-shadow: 0.5vw 0.5vw greenyellow, -0.5vw -0.5vw greenyellow;
+    border-radius: 4vw;
+}
+.boasting{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.boastings{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vw;
+    padding-top: 2vw;
+}
+
+.boasting{
+    padding: 2vw;
+    border-radius: 3vw;
+    box-shadow: 0.5vw 0.5vw #d58bac ,  -0.5vw -0.5vw #d58bac ;
+}
+
+.boasting:hover{
+background-color: #000000;
+
+}
+
+.boastings .img1{
+    margin-bottom: 2vw;
+    border-radius: 50vw;
+    height: 8vw;
+    width: 8vw;
+    align-self: center;
+}
+.boastings .img2{
+    height: 2.5vw;
+    width: 8vw;
+    align-self: center;
+}
+.boasting h1{
+    font-size: large;
+    text-align: center;
+    margin-left: 0%;
+}
+.boasting h2{
+    padding-top: 0.5vw;
+    padding-bottom: 1.8vw;
+    font-size: 1.4vw;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: 700;
+}
+.footer h3{
+    text-align: center;
+    margin-left: 2vw;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.2vw;
+}
+</style>

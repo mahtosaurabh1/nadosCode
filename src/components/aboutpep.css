@@ -1,0 +1,86 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.sidepic{
+    margin-top: 9rem;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    /* margin-left: 5rem; */
+}
+.article h1{
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.article .skill{
+    font-size: 1.8rem;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-learn-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 1rem;
+    width: 12rem;
+    background: -webkit-linear-gradient(#9f63f4, #d58bac);
+    color: white;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.whatpeplsay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background:  -webkit-linear-gradient(#9f63f4, #d58bac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.whatpeplsay h1{
+    font-size:4rem;
+}
+.whatpeplsay p{
+    font-size:1.5rem;
+}
+.placed-student{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.placed-student .student-container{
+    width: 16rem;
+    height: 16rem;
+    border: 1px solid violet ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 1.5rem;
+}
+.placed-student .student-container:hover{
+    background-color: black;
+}
+.placed-student .nishitaimg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3px;
+}
+.placed-student .logo{
+    width: 8rem;
+    height: 2rem;
+}

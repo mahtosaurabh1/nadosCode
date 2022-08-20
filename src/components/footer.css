@@ -1,0 +1,26 @@
+.footer{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+.nadoslogo{
+    width: 50%;
+    height: 50%;
+    margin-bottom:1rem ;
+}
+
+
+.social-media-contact{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px yellowgreen;
+    padding: 1rem 1rem;
+     width: 95%;
+    
+}
+.copyright{
+    color: white;
+    font-size: 1.2rem;
+}

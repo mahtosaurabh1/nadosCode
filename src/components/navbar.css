@@ -1,0 +1,56 @@
+
+.logo{
+    padding-left: 2rem;
+}
+header{
+    background-color:RGB(35, 34, 52);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 4rem;
+    box-shadow: 0px 3px 5px black;
+    font-size: 1.2rem;
+}
+header:hover{
+    background-color: #9f63f4;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 1.2rem;
+    font-size: 1.2rem;
+}
+.options .select{
+    background-color: RGB(35, 34, 52);
+    color: white;
+    border: none;
+}
+.options li{
+    list-style: none;
+    margin: 0.5rem;
+    color: aliceblue;
+
+}
+
+.options li a{
+    color: white;
+    text-decoration: none;
+}
+.options li  .btn{
+    text-decoration: none;
+    color: white;
+    background-color:RGB(38, 105, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+}
+.options li  a .btn:hover{
+    color: blue;
+}
